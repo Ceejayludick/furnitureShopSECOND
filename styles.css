@@ -62,8 +62,6 @@ html {
   border-radius: 50%;
 }
 
-
-
 .image2 {
   width: 500px;
   margin: 2.5%;
@@ -91,14 +89,12 @@ img {
 }
 
 .iframe {
-  margin: 1.5%;
-  border: 1%;
-  padding: 0%;
+  margin: 5%;
+  border: 5%;
+  padding: 5%;
   height: auto;
   display: flex;
-  justify-content: flex-end width="600"
-    height="450"
-    style="border:0"
+  justify-content: center;
 }
 
 p {
@@ -134,31 +130,7 @@ p {
   width: 600px;
 }
 
-.gmail {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-}
-
-.linkedin {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-}
-
-.github {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-}
-
-.youtube {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-}
-
-.instagram {
+.gmail, .linkedin, .github, .youtube, .instagram {
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -274,7 +246,6 @@ header {
   background: #FFFFFF;
   box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
   border-radius: 6px;
-
   display: flex;
   flex-direction: column;
 }
