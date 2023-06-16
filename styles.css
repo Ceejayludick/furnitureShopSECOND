@@ -54,13 +54,15 @@ html {
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   border: 70%;
-  padding: 2%;
+  padding:  5%;
   width: 50rem;
   margin: 5%;
   border-radius: 50%;
 }
+
+
 
 .image2 {
   width: 500px;
@@ -134,32 +136,32 @@ p {
 
 .gmail {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .linkedin {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .github {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .youtube {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .instagram {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 header {
