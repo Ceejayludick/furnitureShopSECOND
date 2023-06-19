@@ -26,7 +26,8 @@ html {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px;
+
   text-decoration: none;
   font-size: 17px;
 }
@@ -54,7 +55,7 @@ html {
   flex-direction: row;
   justify-content: flex-start;
   border: 70%;
-  padding:  5%;
+  padding: 5%;
   width: 50rem;
   margin: 5%;
   border-radius: 50%;
@@ -133,7 +134,11 @@ p {
   width: 600px;
 }
 
-.gmail, .linkedin, .github, .youtube, .instagram {
+.gmail,
+.linkedin,
+.github,
+.youtube,
+.instagram {
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -311,7 +316,12 @@ header {
   transform: scale(1.5);
 }
 
-
-
-
-
+#shop {
+  height: 100%;
+  margin: 2%;
+  border: 5%;
+  border-style: solid;
+  border-color: #4a6483;
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
